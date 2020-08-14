@@ -6,8 +6,8 @@ class Header extends Component {
     return (
       <div className="header">
         <Link to='/'>HOME</Link>
-        <Link to='/calculator'>在线计算器</Link>
-        <Link to='/timer'>在线倒计时器</Link>
+        <Link to='/orders'>订单</Link>
+        <Link to='/add'>添加商品</Link>
       </div>
     );
   };
