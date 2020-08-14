@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Add.less';
 
 class Add extends Component {
 
@@ -49,7 +50,7 @@ class Add extends Component {
           <input type="text" placeholder="URL" value={this.state.photo} onChange={this.handlePhotoChange} />
         </div>
 
-        <input type="submit" value="Submit" className="submit"
+        <input type="submit" value="提交" className="submit"
           disabled={!this.state.name || !this.state.photo || !this.state.price || !this.state.photo} />
 
       </form>
